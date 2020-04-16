@@ -1,0 +1,51 @@
+{
+  "name": "amazon_api",
+  "version": "1.0.0",
+  "description": "REST API that fetches products using propduct_id",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bihire/amazon_api.git"
+  },
+  "author": "bihire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bihire/amazon_api/issues"
+  },
+  "homepage": "https://github.com/bihire/amazon_api#readme",
+  "dependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mws-api": "^3.0.0",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.3"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
