@@ -33,7 +33,7 @@
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "mws-api": "^3.0.0",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "nodemon": "^2.0.3"
   },
   "babel": {
